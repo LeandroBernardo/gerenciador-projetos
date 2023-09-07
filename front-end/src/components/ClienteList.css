@@ -1,0 +1,64 @@
+.cliente-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.cliente-item {
+  flex: 0 0 calc(33.33% - 20px);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  max-width: 500px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cliente-item h4 {
+  color: #007bff;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.atividade-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+  gap: 6px;
+}
+
+.em-andamento {
+  background-color: #4caf50; /* Verde para "Em andamento" */
+  color: #fff;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.nao-iniciada {
+  background-color: #ffc107; /* Amarelo para "Não iniciada" */
+  color: #fff;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.finalizada {
+  background-color: #007bff; /* Azul para "Finalizada" */
+  color: #fff;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .cliente-item {
+    flex-basis: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cliente-item {
+    flex-basis: calc(100% - 20px);
+  }
+}

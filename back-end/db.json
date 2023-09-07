@@ -1,0 +1,114 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Cliente Alpha",
+      "atividades": [
+        {
+          "descricao": "Realizar análise de requisitos",
+          "status": "Não iniciada"
+        },
+        {
+          "descricao": "Desenhar telas do aplicativo",
+          "status": "Finalizada"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Cliente Bravo",
+      "atividades": [
+        {
+          "descricao": "Desenhar telas do aplicativo",
+          "status": "Finalizada"
+        },
+        {
+          "descricao": "Configurar servidor web",
+          "status": "Não iniciada"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Cliente Charlie",
+      "atividades": [
+        {
+          "descricao": "Conduzir entrevistas de usuários",
+          "status": "Em andamento"
+        },
+        {
+          "descricao": "Realizar pesquisa de mercado",
+          "status": "Finalizada"
+        },
+        {
+          "descricao": "Rever design do logotipo",
+          "status": "Finalizada"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Cliente Delta",
+      "atividades": [
+        {
+          "descricao": "Desenvolver protótipo inicial",
+          "status": "Não iniciada"
+        },
+        {
+          "descricao": "Implantar sistema de CRM",
+          "status": "Em andamento"
+        },
+        {
+          "descricao": "Atualizar sistema operacional",
+          "status": "Finalizada"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Cliente Echo",
+      "atividades": [
+        {
+          "descricao": "Realizar teste de usabilidade",
+          "status": "Em andamento"
+        },
+        {
+          "descricao": "Preparar relatório de progresso",
+          "status": "Não iniciada"
+        },
+        {
+          "descricao": "Treinar equipe de suporte",
+          "status": "Finalizada"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "Cliente Foxtrot",
+      "atividades": [
+        {
+          "descricao": "Configurar rede de computadores",
+          "status": "Não iniciada"
+        },
+        {
+          "descricao": "Instalar sistema de monitoramento",
+          "status": "Finalizada"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "Cliente Teste",
+      "atividades": [
+        {
+          "descricao": "Configurar rede de computadores",
+          "status": "Não iniciada"
+        },
+        {
+          "descricao": "Instalar sistema de monitoramento",
+          "status": "Em andamento"
+        }
+      ]
+    }
+  ]
+}
